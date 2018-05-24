@@ -1,0 +1,790 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5B072AF5
+P 2350 2300
+F 0 "U?" H 2600 2950 50  0000 C CNN
+F 1 "74HC595" H 2550 2850 50  0000 C CNN
+F 2 "" H 2350 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2350 2300 50  0001 C CNN
+	1    2350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B072B80
+P 2350 3050
+F 0 "#PWR?" H 2350 2800 50  0001 C CNN
+F 1 "GND" H 2355 2877 50  0000 C CNN
+F 2 "" H 2350 3050 50  0001 C CNN
+F 3 "" H 2350 3050 50  0001 C CNN
+	1    2350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3050 2350 3000
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5B072C0A
+P 2350 4200
+F 0 "U?" H 2600 4850 50  0000 C CNN
+F 1 "74HC595" H 2550 4750 50  0000 C CNN
+F 2 "" H 2350 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2350 4200 50  0001 C CNN
+	1    2350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5B072CA6
+P 2350 3550
+F 0 "#PWR?" H 2350 3400 50  0001 C CNN
+F 1 "VCC" H 2367 3723 50  0000 C CNN
+F 2 "" H 2350 3550 50  0001 C CNN
+F 3 "" H 2350 3550 50  0001 C CNN
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B072CE2
+P 2350 4950
+F 0 "#PWR?" H 2350 4700 50  0001 C CNN
+F 1 "GND" H 2355 4777 50  0000 C CNN
+F 2 "" H 2350 4950 50  0001 C CNN
+F 3 "" H 2350 4950 50  0001 C CNN
+	1    2350 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2800 2850 2800
+Wire Wire Line
+	1750 2100 1950 2100
+Wire Wire Line
+	1650 2500 1950 2500
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5B072F58
+P 2350 6100
+F 0 "U?" H 2600 6750 50  0000 C CNN
+F 1 "74HC595" H 2550 6650 50  0000 C CNN
+F 2 "" H 2350 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2350 6100 50  0001 C CNN
+	1    2350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5B073039
+P 2350 5450
+F 0 "#PWR?" H 2350 5300 50  0001 C CNN
+F 1 "VCC" H 2367 5623 50  0000 C CNN
+F 2 "" H 2350 5450 50  0001 C CNN
+F 3 "" H 2350 5450 50  0001 C CNN
+	1    2350 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4900 2350 4950
+Wire Wire Line
+	2350 3600 2350 3550
+Wire Wire Line
+	2850 2800 2850 3300
+Wire Wire Line
+	2850 3300 1850 3300
+Wire Wire Line
+	1850 3300 1850 3800
+Wire Wire Line
+	1850 3800 1950 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5B073244
+P 2350 6850
+F 0 "#PWR?" H 2350 6600 50  0001 C CNN
+F 1 "GND" H 2355 6677 50  0000 C CNN
+F 2 "" H 2350 6850 50  0001 C CNN
+F 3 "" H 2350 6850 50  0001 C CNN
+	1    2350 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 6850 2350 6800
+Wire Wire Line
+	2350 5500 2350 5450
+Wire Wire Line
+	2750 4700 2850 4700
+Wire Wire Line
+	2850 4700 2850 5200
+Wire Wire Line
+	2850 5200 1850 5200
+Wire Wire Line
+	1850 5200 1850 5700
+Wire Wire Line
+	1850 5700 1950 5700
+$Comp
+L Display_Character:KCSC02-105 U?
+U 1 1 5B073877
+P 3600 2200
+F 0 "U?" H 3600 2867 50  0000 C CNN
+F 1 "KCSC02-105" H 3600 2776 50  0000 C CNN
+F 2 "Display_7Segment:KCSC02-105" H 3600 1600 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 3100 2675 50  0001 L CNN
+	1    3600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B073904
+P 3000 1900
+F 0 "R?" V 2950 2100 50  0000 C CNN
+F 1 "R" V 3000 1900 50  0000 C CNN
+F 2 "" V 2930 1900 50  0001 C CNN
+F 3 "~" H 3000 1900 50  0001 C CNN
+	1    3000 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07399D
+P 3000 2000
+F 0 "R?" V 2950 2200 50  0000 C CNN
+F 1 "R" V 3000 2000 50  0000 C CNN
+F 2 "" V 2930 2000 50  0001 C CNN
+F 3 "~" H 3000 2000 50  0001 C CNN
+	1    3000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B0739EC
+P 3000 2100
+F 0 "R?" V 2950 2300 50  0000 C CNN
+F 1 "R" V 3000 2100 50  0000 C CNN
+F 2 "" V 2930 2100 50  0001 C CNN
+F 3 "~" H 3000 2100 50  0001 C CNN
+	1    3000 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B073A37
+P 3000 2200
+F 0 "R?" V 2950 2400 50  0000 C CNN
+F 1 "R" V 3000 2200 50  0000 C CNN
+F 2 "" V 2930 2200 50  0001 C CNN
+F 3 "~" H 3000 2200 50  0001 C CNN
+	1    3000 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B073AC0
+P 3000 2300
+F 0 "R?" V 2950 2500 50  0000 C CNN
+F 1 "R" V 3000 2300 50  0000 C CNN
+F 2 "" V 2930 2300 50  0001 C CNN
+F 3 "~" H 3000 2300 50  0001 C CNN
+	1    3000 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B073B19
+P 3000 2400
+F 0 "R?" V 2950 2600 50  0000 C CNN
+F 1 "R" V 3000 2400 50  0000 C CNN
+F 2 "" V 2930 2400 50  0001 C CNN
+F 3 "~" H 3000 2400 50  0001 C CNN
+	1    3000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B073B97
+P 3000 2500
+F 0 "R?" V 2950 2700 50  0000 C CNN
+F 1 "R" V 3000 2500 50  0000 C CNN
+F 2 "" V 2930 2500 50  0001 C CNN
+F 3 "~" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B073C16
+P 3000 2600
+F 0 "R?" V 2950 2750 50  0000 L CNN
+F 1 "R" V 3000 2600 50  0000 C CNN
+F 2 "" V 2930 2600 50  0001 C CNN
+F 3 "~" H 3000 2600 50  0001 C CNN
+	1    3000 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 1900 3300 1900
+Wire Wire Line
+	3300 2000 3150 2000
+Wire Wire Line
+	3150 2100 3300 2100
+Wire Wire Line
+	3300 2200 3150 2200
+Wire Wire Line
+	3150 2300 3300 2300
+Wire Wire Line
+	3300 2400 3150 2400
+Wire Wire Line
+	3150 2500 3300 2500
+Wire Wire Line
+	3300 2600 3150 2600
+Wire Wire Line
+	2750 2600 2850 2600
+Wire Wire Line
+	2850 2500 2750 2500
+Wire Wire Line
+	2750 2400 2850 2400
+Wire Wire Line
+	2850 2300 2750 2300
+Wire Wire Line
+	2750 2200 2850 2200
+Wire Wire Line
+	2850 2100 2750 2100
+Wire Wire Line
+	2750 2000 2850 2000
+Wire Wire Line
+	2850 1900 2750 1900
+$Comp
+L Display_Character:KCSC02-105 U?
+U 1 1 5B0770E1
+P 3600 4100
+F 0 "U?" H 3600 4767 50  0000 C CNN
+F 1 "KCSC02-105" H 3600 4676 50  0000 C CNN
+F 2 "Display_7Segment:KCSC02-105" H 3600 3500 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 3100 4575 50  0001 L CNN
+	1    3600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:KCSC02-105 U?
+U 1 1 5B077142
+P 3600 6000
+F 0 "U?" H 3600 6667 50  0000 C CNN
+F 1 "KCSC02-105" H 3600 6576 50  0000 C CNN
+F 2 "Display_7Segment:KCSC02-105" H 3600 5400 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 3100 6475 50  0001 L CNN
+	1    3600 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6400 4100 6400
+Wire Wire Line
+	4100 6400 4100 6300
+Wire Wire Line
+	4100 2500 3900 2500
+Wire Wire Line
+	3900 2600 4100 2600
+Connection ~ 4100 2600
+Wire Wire Line
+	4100 2600 4100 2500
+Wire Wire Line
+	3900 4400 4100 4400
+Connection ~ 4100 4400
+Wire Wire Line
+	4100 4400 4100 2600
+Wire Wire Line
+	3900 4500 4100 4500
+Connection ~ 4100 4500
+Wire Wire Line
+	4100 4500 4100 4400
+Wire Wire Line
+	3900 6300 4100 6300
+Connection ~ 4100 6300
+Wire Wire Line
+	4100 6300 4100 4500
+$Comp
+L power:VCC #PWR?
+U 1 1 5B079665
+P 3900 1250
+F 0 "#PWR?" H 3900 1100 50  0001 C CNN
+F 1 "VCC" H 3917 1423 50  0000 C CNN
+F 2 "" H 3900 1250 50  0001 C CNN
+F 3 "" H 3900 1250 50  0001 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2500 4100 1350
+Wire Wire Line
+	4100 1350 3900 1350
+Wire Wire Line
+	3900 1350 3900 1250
+Connection ~ 4100 2500
+Wire Wire Line
+	2350 1350 3900 1350
+Wire Wire Line
+	2350 1350 2350 1700
+Connection ~ 3900 1350
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5B07AD4B
+P 5400 2300
+F 0 "U?" H 5650 2950 50  0000 C CNN
+F 1 "74HC595" H 5600 2850 50  0000 C CNN
+F 2 "" H 5400 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5400 2300 50  0001 C CNN
+	1    5400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B07AD52
+P 5400 3050
+F 0 "#PWR?" H 5400 2800 50  0001 C CNN
+F 1 "GND" H 5405 2877 50  0000 C CNN
+F 2 "" H 5400 3050 50  0001 C CNN
+F 3 "" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3050 5400 3000
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5B07AD59
+P 5400 4200
+F 0 "U?" H 5650 4850 50  0000 C CNN
+F 1 "74HC595" H 5600 4750 50  0000 C CNN
+F 2 "" H 5400 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5400 4200 50  0001 C CNN
+	1    5400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5B07AD60
+P 5400 3550
+F 0 "#PWR?" H 5400 3400 50  0001 C CNN
+F 1 "VCC" H 5417 3723 50  0000 C CNN
+F 2 "" H 5400 3550 50  0001 C CNN
+F 3 "" H 5400 3550 50  0001 C CNN
+	1    5400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B07AD66
+P 5400 4950
+F 0 "#PWR?" H 5400 4700 50  0001 C CNN
+F 1 "GND" H 5405 4777 50  0000 C CNN
+F 2 "" H 5400 4950 50  0001 C CNN
+F 3 "" H 5400 4950 50  0001 C CNN
+	1    5400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2800 5900 2800
+Wire Wire Line
+	4800 2100 5000 2100
+Wire Wire Line
+	4700 2500 5000 2500
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5B07AD6F
+P 5400 6100
+F 0 "U?" H 5650 6750 50  0000 C CNN
+F 1 "74HC595" H 5600 6650 50  0000 C CNN
+F 2 "" H 5400 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5400 6100 50  0001 C CNN
+	1    5400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5B07AD76
+P 5400 5450
+F 0 "#PWR?" H 5400 5300 50  0001 C CNN
+F 1 "VCC" H 5417 5623 50  0000 C CNN
+F 2 "" H 5400 5450 50  0001 C CNN
+F 3 "" H 5400 5450 50  0001 C CNN
+	1    5400 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4900 5400 4950
+Wire Wire Line
+	5400 3600 5400 3550
+Wire Wire Line
+	5900 2800 5900 3300
+Wire Wire Line
+	5900 3300 4900 3300
+Wire Wire Line
+	4900 3300 4900 3800
+Wire Wire Line
+	4900 3800 5000 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5B07AD82
+P 5400 6850
+F 0 "#PWR?" H 5400 6600 50  0001 C CNN
+F 1 "GND" H 5405 6677 50  0000 C CNN
+F 2 "" H 5400 6850 50  0001 C CNN
+F 3 "" H 5400 6850 50  0001 C CNN
+	1    5400 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6850 5400 6800
+Wire Wire Line
+	5400 5500 5400 5450
+Wire Wire Line
+	5800 4700 5900 4700
+Wire Wire Line
+	5900 4700 5900 5200
+Wire Wire Line
+	5900 5200 4900 5200
+Wire Wire Line
+	4900 5200 4900 5700
+Wire Wire Line
+	4900 5700 5000 5700
+$Comp
+L Display_Character:KCSC02-105 U?
+U 1 1 5B07AD8F
+P 6650 2200
+F 0 "U?" H 6650 2867 50  0000 C CNN
+F 1 "KCSC02-105" H 6650 2776 50  0000 C CNN
+F 2 "Display_7Segment:KCSC02-105" H 6650 1600 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 6150 2675 50  0001 L CNN
+	1    6650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07AD96
+P 6050 1900
+F 0 "R?" V 6000 2100 50  0000 C CNN
+F 1 "R" V 6050 1900 50  0000 C CNN
+F 2 "" V 5980 1900 50  0001 C CNN
+F 3 "~" H 6050 1900 50  0001 C CNN
+	1    6050 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07AD9D
+P 6050 2000
+F 0 "R?" V 6000 2200 50  0000 C CNN
+F 1 "R" V 6050 2000 50  0000 C CNN
+F 2 "" V 5980 2000 50  0001 C CNN
+F 3 "~" H 6050 2000 50  0001 C CNN
+	1    6050 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07ADA4
+P 6050 2100
+F 0 "R?" V 6000 2300 50  0000 C CNN
+F 1 "R" V 6050 2100 50  0000 C CNN
+F 2 "" V 5980 2100 50  0001 C CNN
+F 3 "~" H 6050 2100 50  0001 C CNN
+	1    6050 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07ADAB
+P 6050 2200
+F 0 "R?" V 6000 2400 50  0000 C CNN
+F 1 "R" V 6050 2200 50  0000 C CNN
+F 2 "" V 5980 2200 50  0001 C CNN
+F 3 "~" H 6050 2200 50  0001 C CNN
+	1    6050 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07ADB2
+P 6050 2300
+F 0 "R?" V 6000 2500 50  0000 C CNN
+F 1 "R" V 6050 2300 50  0000 C CNN
+F 2 "" V 5980 2300 50  0001 C CNN
+F 3 "~" H 6050 2300 50  0001 C CNN
+	1    6050 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07ADB9
+P 6050 2400
+F 0 "R?" V 6000 2600 50  0000 C CNN
+F 1 "R" V 6050 2400 50  0000 C CNN
+F 2 "" V 5980 2400 50  0001 C CNN
+F 3 "~" H 6050 2400 50  0001 C CNN
+	1    6050 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07ADC0
+P 6050 2500
+F 0 "R?" V 6000 2700 50  0000 C CNN
+F 1 "R" V 6050 2500 50  0000 C CNN
+F 2 "" V 5980 2500 50  0001 C CNN
+F 3 "~" H 6050 2500 50  0001 C CNN
+	1    6050 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07ADC7
+P 6050 2600
+F 0 "R?" V 6000 2750 50  0000 L CNN
+F 1 "R" V 6050 2600 50  0000 C CNN
+F 2 "" V 5980 2600 50  0001 C CNN
+F 3 "~" H 6050 2600 50  0001 C CNN
+	1    6050 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 1900 6350 1900
+Wire Wire Line
+	6350 2000 6200 2000
+Wire Wire Line
+	6200 2100 6350 2100
+Wire Wire Line
+	6350 2200 6200 2200
+Wire Wire Line
+	6200 2300 6350 2300
+Wire Wire Line
+	6350 2400 6200 2400
+Wire Wire Line
+	6200 2500 6350 2500
+Wire Wire Line
+	6350 2600 6200 2600
+Wire Wire Line
+	5800 2600 5900 2600
+Wire Wire Line
+	5900 2500 5800 2500
+Wire Wire Line
+	5800 2400 5900 2400
+Wire Wire Line
+	5900 2300 5800 2300
+Wire Wire Line
+	5800 2200 5900 2200
+Wire Wire Line
+	5900 2100 5800 2100
+Wire Wire Line
+	5800 2000 5900 2000
+Wire Wire Line
+	5900 1900 5800 1900
+$Comp
+L Display_Character:KCSC02-105 U?
+U 1 1 5B07ADDE
+P 6650 4100
+F 0 "U?" H 6650 4767 50  0000 C CNN
+F 1 "KCSC02-105" H 6650 4676 50  0000 C CNN
+F 2 "Display_7Segment:KCSC02-105" H 6650 3500 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 6150 4575 50  0001 L CNN
+	1    6650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:KCSC02-105 U?
+U 1 1 5B07ADE5
+P 6650 6000
+F 0 "U?" H 6650 6667 50  0000 C CNN
+F 1 "KCSC02-105" H 6650 6576 50  0000 C CNN
+F 2 "Display_7Segment:KCSC02-105" H 6650 5400 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 6150 6475 50  0001 L CNN
+	1    6650 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 6400 7150 6400
+Wire Wire Line
+	7150 6400 7150 6300
+Wire Wire Line
+	7150 2500 6950 2500
+Wire Wire Line
+	6950 2600 7150 2600
+Connection ~ 7150 2600
+Wire Wire Line
+	7150 2600 7150 2500
+Wire Wire Line
+	6950 4400 7150 4400
+Connection ~ 7150 4400
+Wire Wire Line
+	7150 4400 7150 2600
+Wire Wire Line
+	6950 4500 7150 4500
+Connection ~ 7150 4500
+Wire Wire Line
+	7150 4500 7150 4400
+Wire Wire Line
+	6950 6300 7150 6300
+Connection ~ 7150 6300
+Wire Wire Line
+	7150 6300 7150 4500
+$Comp
+L power:VCC #PWR?
+U 1 1 5B07ADFB
+P 6950 1250
+F 0 "#PWR?" H 6950 1100 50  0001 C CNN
+F 1 "VCC" H 6967 1423 50  0000 C CNN
+F 2 "" H 6950 1250 50  0001 C CNN
+F 3 "" H 6950 1250 50  0001 C CNN
+	1    6950 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2500 7150 1350
+Wire Wire Line
+	7150 1350 6950 1350
+Wire Wire Line
+	6950 1350 6950 1250
+Connection ~ 7150 2500
+Wire Wire Line
+	5400 1350 6950 1350
+Wire Wire Line
+	5400 1350 5400 1700
+Connection ~ 6950 1350
+Wire Wire Line
+	2750 6600 4600 6600
+Wire Wire Line
+	4600 6600 4600 1900
+Wire Wire Line
+	4600 1900 5000 1900
+$Comp
+L Device:R R?
+U 1 1 5B07FA63
+P 3000 3800
+F 0 "R?" V 2793 3800 50  0000 C CNN
+F 1 "R" V 2884 3800 50  0000 C CNN
+F 2 "" V 2930 3800 50  0001 C CNN
+F 3 "~" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07FB1A
+P 3000 3900
+F 0 "R?" V 2793 3900 50  0000 C CNN
+F 1 "R" V 2884 3900 50  0000 C CNN
+F 2 "" V 2930 3900 50  0001 C CNN
+F 3 "~" H 3000 3900 50  0001 C CNN
+	1    3000 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07FBD1
+P 3000 4000
+F 0 "R?" V 2793 4000 50  0000 C CNN
+F 1 "R" V 2884 4000 50  0000 C CNN
+F 2 "" V 2930 4000 50  0001 C CNN
+F 3 "~" H 3000 4000 50  0001 C CNN
+	1    3000 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07FD2B
+P 3000 4100
+F 0 "R?" V 2793 4100 50  0000 C CNN
+F 1 "R" V 2884 4100 50  0000 C CNN
+F 2 "" V 2930 4100 50  0001 C CNN
+F 3 "~" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07FDEC
+P 3000 4200
+F 0 "R?" V 2793 4200 50  0000 C CNN
+F 1 "R" V 2884 4200 50  0000 C CNN
+F 2 "" V 2930 4200 50  0001 C CNN
+F 3 "~" H 3000 4200 50  0001 C CNN
+	1    3000 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07FEC6
+P 3000 4300
+F 0 "R?" V 2793 4300 50  0000 C CNN
+F 1 "R" V 2884 4300 50  0000 C CNN
+F 2 "" V 2930 4300 50  0001 C CNN
+F 3 "~" H 3000 4300 50  0001 C CNN
+	1    3000 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B07FF93
+P 3000 4400
+F 0 "R?" V 2793 4400 50  0000 C CNN
+F 1 "R" V 2884 4400 50  0000 C CNN
+F 2 "" V 2930 4400 50  0001 C CNN
+F 3 "~" H 3000 4400 50  0001 C CNN
+	1    3000 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B080072
+P 3000 4500
+F 0 "R?" V 2793 4500 50  0000 C CNN
+F 1 "R" V 2884 4500 50  0000 C CNN
+F 2 "" V 2930 4500 50  0001 C CNN
+F 3 "~" H 3000 4500 50  0001 C CNN
+	1    3000 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 3800 3300 3800
+Wire Wire Line
+	3300 3900 3150 3900
+Wire Wire Line
+	3150 4000 3300 4000
+Wire Wire Line
+	3300 4100 3150 4100
+Wire Wire Line
+	3150 4200 3300 4200
+Wire Wire Line
+	3300 4300 3150 4300
+Wire Wire Line
+	3150 4400 3300 4400
+Wire Wire Line
+	3300 4500 3150 4500
+Wire Wire Line
+	2850 4500 2750 4500
+Wire Wire Line
+	2750 4400 2850 4400
+Wire Wire Line
+	2850 4300 2750 4300
+Wire Wire Line
+	2750 4200 2850 4200
+Wire Wire Line
+	2850 4100 2750 4100
+Wire Wire Line
+	2750 4000 2850 4000
+Wire Wire Line
+	2850 3900 2750 3900
+Wire Wire Line
+	2750 3800 2850 3800
+$EndSCHEMATC
